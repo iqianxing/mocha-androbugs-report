@@ -1,0 +1,24 @@
+{
+  "name": "mocha-androbugs-report",
+  "version": "1.0.0",
+  "description": "Androbugs mocha report.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.0",
+    "mochawesome": "^3.0.2"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/_mocha --reporter mochawesome"
+  },
+  "keywords": [
+    "androbugs"
+  ],
+  "author": "iqianxing",
+  "license": "MIT"
+}
